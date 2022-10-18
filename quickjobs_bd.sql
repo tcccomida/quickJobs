@@ -20,3 +20,10 @@ create table vagas (
     url varchar(255) not null,
     foreign key (area) references area (id)
 );
+
+insert into area(nome) values 
+("frontend"),
+("backend"),
+("testes e qualidade"),
+("ux"),
+("product owner");
